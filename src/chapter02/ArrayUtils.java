@@ -18,7 +18,8 @@ public class ArrayUtils {
 		
 		// 첫 번째 배열 저장
 		for( int i : arrayInt1 ) {
-			arrayResult[ index++ ] = i;
+			arrayResult[ index ] = i;
+			index++;
 		}
 		
 		// 두 번째 배열 저장
