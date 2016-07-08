@@ -13,6 +13,8 @@ public class PaintApp {
 		point2.setY( 20 );
 		point2.show();
 		
+		point2.show( false );
+		
 	}
 
 }
