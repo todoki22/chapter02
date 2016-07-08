@@ -17,15 +17,13 @@ public class ArrayUtils {
 		int index = 0; 
 		
 		// 첫 번째 배열 저장
-		for( int i = 0; i < length1; i++ ) {
-			arrayResult[ index ] = arrayInt1[ i ];
-			index++;
+		for( int i : arrayInt1 ) {
+			arrayResult[ index++ ] = i;
 		}
 		
 		// 두 번째 배열 저장
-		for( int i = 0; i < length2; i++ ) {
-			arrayResult[ index ] = arrayInt2[ i ];
-			index++;
+		for( int i : arrayInt2 ) {
+			arrayResult[ index++ ] = i;
 		}
 		
 		return arrayResult;
